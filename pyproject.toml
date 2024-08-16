@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "my-fastapi-project"
+version = "0.1.0"
+description = "A FastAPI project that processes CSV files, connects to an LLM API, and a relational database."
+authors = ["manju-nath-dc <manjunath.dc.github@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.112.0"
+uvicorn = "^0.30.6"
+pandas = "^2.2.2"
+sqlalchemy = "^2.0.32"
+langchain = "^0.2.14"
+python-dotenv = "^1.0.1"
+requests = "^2.32.3"
+pydantic = "^2.8.2"
+openai = "^1.40.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
